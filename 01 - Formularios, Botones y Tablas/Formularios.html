@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO & BOTONES</title>
+</head>
+<body>
+    <form action="resultados.html" method="GET">
+        <div>
+            <label for="nombredeusuario">Nombre Usuario</label>
+            <input name="nombredeusuario" id="nombredeusuario" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="password">Contraseña</label>
+            <input name="password" id="password" type="password">
+        </div>
+        <br>
+        <div>
+            <label for="edad">Edad</label>
+            <input name="edad" id="edad" type="number" min="0" max="100" step="5">
+        </div>
+        <br>
+        <div>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input name="nacimiento" id="nacimiento" type="date">
+        </div>
+        <br>
+        <div>
+            <label for="email">email</label>
+            <input name="email" id="email" type="email">
+        </div>
+        <br>
+        <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </div>
+        <br>
+        <button type="reset">Eliminar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
